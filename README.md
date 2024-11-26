@@ -11,4 +11,9 @@ Currently, the diagonal matrix technique is commonly employed for RIS design in 
 This repository includes all the necessary files, enabling users to reproduce the results presented in the referenced papers.
 # Results
 ---------------------------------------------------------------------------
-In the file optim8GHz.mat, you can define your frequency, number of the unit cells in the supecell, desired deflection frequency, substrate thickness and all the required information. By defining the cost function as $F({Z_{1...K}}) = \left| {{A_{\rm cal}} - {A_{\rm goal}}} \right|$ and employing the MultiStart and Fmincon optimization algorithms, Matlab searches the proper matrix ${Z_{1...K}}$ that minimizes the cost function i.e. maximal reflected power  in the prescribed direction w.r.t the incident power. 
+In the file optim8GHz.mat, you can define your frequency, number of the unit cells in the supecell, desired deflection frequency, substrate thickness and all the required information. By defining the cost function as $F({Z_{1...K}}) = \left| {{A_{\rm cal}} - {A_{\rm goal}}} \right|$ and employing the MultiStart and Fmincon optimization algorithms, Matlab searches the proper matrix ${Z_{1...K}}$ that minimizes the cost function i.e. maximal reflected power  in the prescribed direction w.r.t the incident power. Since our aim is to increase the reflected power only for desired deflection angle and minimizing it for all the other harmonics, for an ideal MS, abs(R(N+2)-1/sqrt(cosd(th_d))). 
+This Matlab file generates $K$ numbers of ${Z_{1...K}}$. In our specific example, it generates 9 different numbers which correspond to 9 sheet impedance values in one supercell.
+
+In the below [figure] (zvalues.jpg), you can see the generated 9 values for ${Z_{1...K}}$.
+
+
