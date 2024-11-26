@@ -36,7 +36,7 @@ Then by using check8GHz.mat code and by inserting the generated Z values as x ma
 
 # Files
 -------------------------------------------------------------------------------------
-optim8GHz.m contains information on the MultiStart optimization framwwork to generate required ${Z_{1...K}}$. check8GHz.m file contains information on the calculation of the harmonic amplitude scattered from the periodic metasurface.  
+optim8GHz.m contains information on the MultiStart optimization framework to generate required ${Z_{1...K}}$. check8GHz.m file contains information on the calculation of the harmonic amplitude scattered from the periodic metasurface.  
 
 # References
 -------------------------------------------------------------------------------------
