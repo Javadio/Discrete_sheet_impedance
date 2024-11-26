@@ -24,7 +24,7 @@ In the below [figure](https://github.com/Javadio/Discrete_sheet_impedance/blob/m
 <p align="center"><b>Figure 1:</b> Visualization of Z values from the Discrete Sheet Impedance Model.</p>
 ---------------------------------------------------------------------------------------
 
-Then by using check8GHz.mat code and by inserting the generated Z values as x matrix, you can calculate the amplitude of each scattered harmonics both propagating and evanescent waves. In the below [figure](https://github.com/Javadio/Discrete_sheet_impedance/blob/main/fig2.jpg), (a) and (c) you can see the generated harmonic amplitudes for 20 harmonics.  
+Then by using check8GHz.mat code and by inserting the generated Z values as x matrix, you can calculate the amplitude of each scattered harmonics both propagating and evanescent waves. In the below [figure](https://github.com/Javadio/Discrete_sheet_impedance/blob/main/fig2.jpg), (a) and (c) you can see the generated harmonic amplitudes for 20 harmonics. Also (b) and (d) shows the results generated in CST.   
 
 <h2>Figure: Harmonic amplitude Visualization</h2>
 
@@ -36,4 +36,10 @@ Then by using check8GHz.mat code and by inserting the generated Z values as x ma
 
 # Files
 -------------------------------------------------------------------------------------
-Cape town_coverage_learning.ipynb
+optim8GHz.m contains information on the MultiStart optimization framwwork to generate required ${Z_{1...K}}$. check8GHz.m file contains information on the calculation of the harmonic amplitude scattered from the periodic metasurface.  
+
+# References
+-------------------------------------------------------------------------------------
+[A] [Shabanpour, J., Simovski, C., & Geraci, G. (2024). Physically Consistent RIS: From Reradiation Mode Optimization to Practical Realization. arXiv preprint arXiv:2409.17738](<https://arxiv.org/abs/2409.17738>).
+
+[B] Shabanpour, Javad, X. Wang, S. Kosulnikov, and C. Simovski, “Advancing RIS beamforming efficiency: Moving beyond diagonal matrix techniques”, IEEE Transactions on Vehicular Technology, 2024, Under review.
