@@ -24,13 +24,16 @@ In the below [figure](https://github.com/Javadio/Discrete_sheet_impedance/blob/m
 <p align="center"><b>Figure 1:</b> Visualization of Z values from the Discrete Sheet Impedance Model.</p>
 ---------------------------------------------------------------------------------------
 
-Then by using check8GHz.mat code and by inserting the generated Z values as x matrix, you can calculate the amplitude of each scattered harmonics both propagating and evanescent waves. In the below [figure](https://github.com/Javadio/Discrete_sheet_impedance/blob/main/fig2.pdf), (a) and (c) you can see the generated harmonic amplitudes for 20 harmonics.  
+Then by using check8GHz.mat code and by inserting the generated Z values as x matrix, you can calculate the amplitude of each scattered harmonics both propagating and evanescent waves. In the below [figure](https://github.com/Javadio/Discrete_sheet_impedance/blob/main/fig2.jpg), (a) and (c) you can see the generated harmonic amplitudes for 20 harmonics.  
 
-<h2>Figure: Z Values Visualization</h2>
+<h2>Figure: Harmonic amplitude Visualization</h2>
 
 <p align="center">
-  <img src="https://github.com/Javadio/Discrete_sheet_impedance/blob/main/fig2.pdf" alt="Z Values" width="900">
+  <img src="https://github.com/Javadio/Discrete_sheet_impedance/blob/main/fig2.jpg" alt="Z Values" width="900">
 </p>
 
-<p align="center"><b>Figure 2:</b> Visualization of Z values from the Discrete Sheet Impedance Model.</p>
+<p align="center"><b>Figure 2:</b> Visualization of harmonic amplitude based on the generated Z values.</p>
 
+# Files
+-------------------------------------------------------------------------------------
+Cape town_coverage_learning.ipynb
